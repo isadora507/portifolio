@@ -1,90 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title> Meu Portifólio</title>
-
-</head>
-<body>
- <header>
-  <div class="head-content">
-  <img src="isa.jpg" alt="foto de perfil" class="profile-img">
-  <h1>Isadora Ferraz</h1>
-  <p>cavadora de buraco</p>
-</div>
- </header>
-
- <nav>
-   <ul>
-    <li> <a href="#sobre">sobre</a></li>
-    <li> <a href="projetos">projetos</a></li>
-    <li> <a href="contato">contato</a></li>
-  </ul>
- </nav>
- <section id="sobre"> 
-  <h2>Sobre Mim</h2>
-  <div class="about-content">
-  <div class="about-text">
-    <p>Olá! Eu sou Isadora, uma desenvolvedora web apaixonada por criar experiências digitais incríveis. Com anos de experiência no mercado, já trabalhei com diversas e framework.</p>
-    <br>
-    <p>Minha especialidade é desenvolver interfaces bonitas e funcionais, com foco na experiência do usuário. acredito que a tecnologia deve ser acessível e agradável para todos.</p>
-    <br>
-    <p>Quando não estou codando, você pode me encontrar lendo um bom livro, explorando a natureza ou experimentando novas receitas na cozinha.</p>
-    </div>
-  </div>
-  <section id="projetos">
-    <h2>Projetos</h2>
-    <div class="projects-grid">
-      
-      <div class="project-card">
-        <img src="turismo.jpg" alt="Projeto 1" class="project-img">
-        <div class="project-info">
-          <h3>E-commerce Digital</h3>
-          <p>Plataforma de e-commerce para produtos orgânicos com sistema de pedidos e pagamento integrado.</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Flash Cards</title>
+  </head>
+  <body>
+    <main>
+      <article class="cartao">
+        <div class="cartao__conteudo">
+          <div class="frente">
+            <h3>O que é Javascript?</h3>
+            <p>O que é Javascript?</p>
+          </div>
+          <div class="verso">
+            <p>Javascript é uma linguagem de programação voltada à web.</p>
+          </div>
         </div>
-      </div>
-  
-      <div class="project-card">
-        <img src="blog.jpg" alt="Projeto 2" class="project-img">
-        <div class="project-info">
-          <h3>Guia Turístico</h3>
-          <p>Aplicativo mobile feito para auxiliar turistas com realidade aumentada e guia personalizado.</p>
-        </div>
-      </div>
-  
-      <div class="project-card">
-        <img src="e-commerce.jpg" alt="Projeto 3" class="project-img">
-        <div class="project-info">
-          <h3>Blog de Tecnologia</h3>
-          <p>Blog moderno com sistema de categorias, busca avançada e integração com redes sociais.</p>
-        </div>
-      </div>
-  
-    </div>
-  </section>
-  <section id="contato">
-  <h2>Entre em contato</h2>
-  <div class="contato-infos">
-    <p>Estou disponível para novos projetos e oportunidades. Vamos conversar!</p>
-    <p>
-      <a href="mailto:maria.silva@exemplo.com">maria.silva@exemplo.com</a><br>
-      <em>(11) 98765-4321</em>
-    </p>
-  </div>
-  
-  <div class="social-links">
-    <a href="#" aria-label="LinkedIn">in</a>
-    <a href="#" aria-label="GitHub">gh</a>
-    <a href="#" aria-label="Twitter">tw</a>
-    <a href="#" aria-label="Instagram">ig</a>
-  </div>
-</section>
+      </article>
 
-<footer>
-  <p>&copy; 2023 Maria Silva. Todos os direitos reservados.</p>
-</footer>
+      <article class="cartao">
+        <div class="cartao__conteudo">
+          <div class="frente">
+            <h3>O que é CSS?</h3>
+            <p>O que é CSS?</p>
+          </div>
+          <div class="verso">
+            <p>CSS é uma linguagem de marcação para estilização de páginas.</p>
+          </div>
+        </div>
+      </article>
 
-</body>
+      <article class="cartao">
+        <div class="cartao__conteudo">
+          <div class="frente">
+            <h3>O que é HTML?</h3>
+            <p>O que é HTML?</p>
+          </div>
+          <div class="verso">
+            <p>HTML é a linguagem de marcação usada para estruturar páginas na web.</p>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer>
+      <p>Projeto desenvolvido por Isadora Ferraz - sem fins lucrativos</p>
+    </footer>
+  </body>
 </html>
