@@ -86,3 +86,17 @@ footer {
   color: var(--text-color);
   border-top: 1px solid var(--border-color);
 }
+@media (max-width) {
+  body {
+    background: url(img/bg-mobile.weeb);
+  }
+  .cartao {
+    flex: 1 0 calc(100% - 1 rem);
+  }
+  .cartao__conteudo h3 {
+    font-size: 3vw;
+  }
+  .cartao__conteudo p {
+    font-size: 3vw;
+  }
+}
