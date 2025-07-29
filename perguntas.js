@@ -1,18 +1,18 @@
 const criarCard = [
     {
-      categoria: "programação",
-      pergunta: "O que é Javascript?",
-      resposta: "Javascript é uma linguagem de programação"
+      categoria: "Geografia",
+      pergunta: "Em que cidade você mora?",
+      resposta: "Eu moro em Londrina."
     },
     {
-      categoria: "geografia",
-      pergunta: "Qual o estado do Paraná?",
-      resposta: "A capital do Paraná é Curitiba"
+      categoria: "alimento",
+      pergunta: "Em que país foi criado o Schnitzel?",
+      resposta: "Na Áustria"
     },
     {
-      categoria: "programação",
-      pergunta: "O que é HTML?",
-      resposta: "HTML é uma linguagem de marcação"
+      categoria: "alimento",
+      pergunta: "Onde foi inventado o arroz carreteiro?",
+      resposta: "No Rio Grande do Sul, no Brasil"
     }
   ];
   
